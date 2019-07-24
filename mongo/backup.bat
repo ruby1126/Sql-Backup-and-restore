@@ -1,0 +1,1 @@
+mongodump -h 127.0.0.1 --port 27017 -u root -p password -d database --authenticationDatabase admin -o ./
